@@ -42,7 +42,7 @@ def is_perfect_square(n):
     sq_root = int(math.sqrt(n))
     return sq_root * sq_root == n
 
-
+# time complexit is O(sqrt(N))
 def count_factors_optimised(n):
     count = 0
     sq_root = int(math.sqrt(n))
