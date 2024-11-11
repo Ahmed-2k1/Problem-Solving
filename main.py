@@ -1,8 +1,8 @@
-from basic_number_solves.gcd import gcd
+from arrays.binarySearch import binary_search
 
 def main():
-    print(gcd(15, 9))
-    print(gcd(12, 16))
+    arr = [10, 20, 30, 40, 50, 60]
+    print(binary_search(arr, 63))
 
 if __name__ == "__main__":
     main()
