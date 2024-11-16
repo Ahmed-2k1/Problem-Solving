@@ -3,6 +3,7 @@
 # -> O(log N) because everytime we check the condition that if our 
 # mid element is '==' or '>' or '<' key and then we make decision to
 # either first half(including mid) or the second half.
+# The kth iteration will be N/(2^k)
 
 def binary_search(arr, key):
     low = 0
